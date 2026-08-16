@@ -119,7 +119,7 @@
   "attestation": {
     "auditor": "Automated Security Toolchain (Bandit v1.7.9 + Safety v2.3.5 + Trivy v0.52.0 + Semgrep v1.102.0)",
     "methodology": "Static Application Security Testing (SAST) + Software Composition Analysis (SCA)",
-    "scope": "Full source code (11,725 LOC) + Docker image + 156 dependencies",
+    "scope": "Full source code (15,453 LOC) + Docker image + 156 dependencies",
     "limitations": "DYNAMIC testing (DAST) requires live deployment; recommended for复赛阶段"
   },
   "score_breakdown": {

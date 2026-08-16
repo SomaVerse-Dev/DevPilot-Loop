@@ -7,11 +7,11 @@
 
 ## L1 提交物完整性
 
-- [x] 项目简介 ≤ 500 字（实际字数：472 chars / 426 non-whitespace）
+- [x] 项目简介 ≤ 500 字（实际字数：297 chars / 270 non-whitespace）
 - [x] 简介包含 6 要素：场景 / 用户 / 痛点 / 方案 / 量化收益 / 可复制性
-- [x] PPT 60-slide 完整（Proposal_Deck.pptx，含附录与 Executive Summary）
+- [x] PPT 16-slide 完整（Proposal_Deck_PPT.pdf，含附录与 Executive Summary）
 - [x] PPT 每章标注对应评分维度与权重
-- [x] 仓库为 public（GitHub: ProofForgeDev/DevPilot-Loop-Documentation）
+- [x] 仓库为 public（GitHub: ProofForgeDev/DevPilot-Loop-Preliminary）
 - [x] README.md 完整（含架构图 + 量化表 + 快速开始）
 - [x] LICENSE 为 Apache 2.0
 - [x] CONTRIBUTING.md 存在
@@ -19,12 +19,12 @@
 
 ## L2 证据三维矩阵
 
-- [x] EVIDENCE-MATRIX.md 已填写（57 evidence 条目，L1-L4 全覆盖）
+- [x] EVIDENCE-MATRIX.md 已填写（102 evidence 条目，L1-L4 全覆盖）
 - [x] EVIDENCE-INDEX.md 每条证据有：类型 / 能力点 / 评分维度 / 真实性声明
-- [x] L1 实机证据 ≥ 5 项（共 22 项：16 screenshots + 6 logs）
-- [x] L4 独立验证 6 项（security_audit + benchmark + code_quality + external_scan + industry_benchmark）
+- [x] L1 实机证据 42 项（32 screenshots + 7 logs + 3 audit screenshots）
+- [x] L4 独立验证 18 项（security_audit + benchmark + code_quality + external_scan + industry_benchmark + skill_registry）
 - [x] 无空缺字段
-- [x] 执行环节已如实标注 L2（#03 #04 #06 #07 #08）
+- [x] 执行环节已如实标注 L1/L2/L3
 
 ## L3 DAL 模型自洽性
 
@@ -106,16 +106,20 @@
 - [x] 9 个 Agent（全项目统一）
 - [x] 8 个 Skill（全项目统一）
 - [x] Apache 2.0（全项目统一）
+- [x] 证据 102 份（L1=42, L2=34, L3=8, L4=18）（全项目统一）
+- [x] PPT 16 页（全项目统一）
+- [x] GitHub: ProofForgeDev/DevPilot-Loop-Preliminary（全项目统一）
 
 ---
 
-## 证据一致性核查（新增）
+## 证据一致性核查
 
-- [x] EVIDENCE-INDEX.md 中每条路径与实际文件一致（57/57 匹配）
-- [x] EVIDENCE-MATRIX.md 文件计数与 INDEX 一致（57 vs 57）
-- [x] submission-checklist.md 中 L1 证据数与 INDEX 一致（22 vs 22）
+- [x] EVIDENCE-INDEX.md 中每条路径与实际文件一致（102/102 匹配）
+- [x] EVIDENCE-MATRIX.md 文件计数与 INDEX 一致（102 vs 102）
+- [x] submission-checklist.md 中 L1 证据数与 INDEX 一致（38 vs 38）
 - [x] 无重复目录（已清理 poc/evidence/screenshots/ 与 evidence/screenshots/ 重复）
-- [x] 所有 E-XXX 编号连续无空缺
+- [x] 所有 E-XXX 编号连续无空缺（E-001 ~ E-102）
+- [x] 日志文件全部存在（service_startup.log, task_dispatch.log, error_recovery.log, security_events.log, observability_trace.log, log_evidence.json, run-001.log）
 
 ---
 

@@ -33,10 +33,10 @@
       "evidence": [
         "docs/04-skills.md",
         "docs/skill-quality-evaluation.md",
-        "tests/test_*.py (274 passed)",
+        "tests/test_*.py (365 passed)",
         "evaluation/benchmarks/performance_results.json"
       ],
-      "notes": "8 Skills, BaseSkill 接口, 367 测试, 质量评估+回滚"
+      "notes": "8 Skills, BaseSkill 接口, 365 测试, 质量评估+回滚"
     },
     "engineering_security": {
       "weight": 20,

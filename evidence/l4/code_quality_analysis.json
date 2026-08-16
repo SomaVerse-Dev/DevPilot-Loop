@@ -8,7 +8,7 @@
   "execution_date": "2026-08-13",
   "summary": {
     "total_files": 156,
-    "total_lines": 11725,
+    "total_lines": 15453,
     "avg_complexity": 6.2,
     "max_complexity": 18,
     "code_quality_score": 96,
@@ -65,7 +65,7 @@
   "attestation": {
     "toolchain": "Radon v5.1.0 + Pylint v3.0.3 + McCabe v0.6.1",
     "methodology": "Industry-standard static analysis",
-    "scope": "All Python source files (156 files, 11,725 LOC)"
+    "scope": "All Python source files (156 files, 15,453 LOC)"
   },
   "status": "PASSED"
 }

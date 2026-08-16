@@ -41,7 +41,7 @@
 | PostmortemCapture | 39 | 100% | 93 | 99 | S |
 | Orchestrator | 14 | 100% | 87 | 94 | A |
 | Lifecycle | 21 | 100% | 85 | 93 | A |
-| **总计** | **279** | **100%** | **~90** | **~97** | **S/A** |
+| **总计** | **365** | **100%** | **~90** | **~97** | **S/A** |
 
 ### 2.2 详细评估报告
 
@@ -124,6 +124,6 @@ skills:
 | ID | 文件路径 | 描述 | 层级 |
 |----|---------|------|------|
 | E-Q01 | `evidence/l4/code_quality_analysis.json` | 代码质量分析结果 | L4 |
-| E-Q02 | `tests/test_*.py` | 全量测试用例（279 个） | L1 |
+| E-Q02 | `tests/test_*.py` | 全量测试用例（365 个） | L1 |
 | E-Q03 | `poc/evidence/skills/L4_install_test_output.txt` | Skill 安装验证 | L4 |
 | E-Q04 | `poc/evidence/skills/L4_skill_registry_output.txt` | Skill 注册表验证 | L4 |

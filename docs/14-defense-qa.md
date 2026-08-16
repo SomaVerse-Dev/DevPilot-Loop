@@ -39,7 +39,7 @@
 
 ## Q8: 和AutoGPT/CrewAI等框架有什么区别？
 
-**答**: (1) 领域聚焦——DevPilot Loop专注缺陷修复全链路，不是通用Agent框架；(2) 基座选择——基于AgentTeams（Matrix+Higress），天然具备企业级通信和安全能力；(3) Skill工程化——8个Skill全部pip可安装、semver版本化、有测试覆盖；(4) 证据 129 份L1-L4证据，不是Demo级项目。
+**答**: (1) 领域聚焦——DevPilot Loop专注缺陷修复全链路，不是通用Agent框架；(2) 基座选择——基于AgentTeams（Matrix+Higress），天然具备企业级通信和安全能力；(3) Skill工程化——8个Skill全部pip可安装、semver版本化、有测试覆盖；(4) 证据 102 份L1-L4证据，不是Demo级项目。
 **证据**: docs/02-architecture.md, EVIDENCE-INDEX.md
 
 ## Q9: 当前局限性？下一步计划？

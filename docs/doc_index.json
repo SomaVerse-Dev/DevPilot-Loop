@@ -4,9 +4,9 @@
   "generated_at": "2026-08-13T11:35:26.402201+00:00",
   "total_docs": 18,
   "total_lines": 1146,
-  "total_python_lines": 11725,
+  "total_python_lines": 15453,
   "total_files": 238,
-  "total_tests": 367,
+  "total_tests": 365,
   "total_skills": 8,
   "total_evidence": 48,
   "absolute_limit_reached": true,
@@ -220,10 +220,10 @@
         "lines": 170,
         "features": 5
       },
-      "total_python_lines": 11725
+      "total_python_lines": 15453
     },
     "tests": {
-      "total": 367,
+      "total": 365,
       "files": 23,
       "coverage_estimate": "95%",
       "skill_tests": 238,

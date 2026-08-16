@@ -18,8 +18,8 @@
     "manual_time_min": 180,
     "auto_time_sec": 0.004,
     "human_interventions": "20% (仅审批节点)",
-    "total_loc": 11725,
-    "total_tests": 367,
+    "total_loc": 15453,
+    "total_tests": 365,
     "test_coverage": "~95%",
     "security_score": 98,
     "code_quality_score": 96

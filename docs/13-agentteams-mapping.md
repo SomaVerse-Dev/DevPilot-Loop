@@ -23,7 +23,7 @@
 | Worker 间无直接通信 | Worker 通过 Manager 中转，不互相调用 |
 | Worker 沙箱执行 | fixer 生成的 patch 需 verifier 独立验证才能合入 |
 
-**证据 129 份), poc/hiclaw/workers/*.md
+**证据 102 份), poc/hiclaw/workers/*.md
 
 ## 3. Matrix 人类在环映射
 

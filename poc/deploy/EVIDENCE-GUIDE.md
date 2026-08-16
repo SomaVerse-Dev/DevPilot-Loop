@@ -149,7 +149,7 @@ hiclaw run scenario poc/scenarios/scenario-01-npe-bug.md
 [INFO] Step 2/8: Intake 归并分诊 → defect_id=DEF-2026-001, severity=P1
 [INFO] Step 3/8: Analyst 根因定位 → UserService.java:42, confidence=0.93
 [INFO] Step 4/8: Fixer 生成 patch → patch_id=PATCH-001, risk_level=low
-[INFO] Step 5/8: Verifier 测试通过 → 5/274 passed, verdict=approve
+[INFO] Step 5/8: Verifier 测试通过 → 5/365 passed, verdict=approve
 [INFO] Step 6/8: Release 灰度发布 → status=success, decision=promote
 [INFO] Step 7/8: Knowledge 沉淀 Runbook → runbook_id=RB-2026-001
 [INFO] Step 8/8: DevLead 汇总报告 → 全流程 28s

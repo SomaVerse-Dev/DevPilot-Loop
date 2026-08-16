@@ -3,7 +3,7 @@
     "project": "DevPilot Loop",
     "version": "2.0.0",
     "generated_at": "2026-08-13T09:36:19.020028+00:00",
-    "total_evidence_files": 44,
+    "total_evidence_files": 61,
     "categories": {
       "screenshots": {
         "count": 18,
@@ -122,7 +122,7 @@
       "technical_depth": {
         "max_score": 25,
         "achieved": 24,
-        "evidence": "11,725 lines, 9 agents, 8 skills, 367 tests"
+        "evidence": "15,453 lines, 9 agents, 8 skills, 365 tests"
       },
       "innovation": {
         "max_score": 20,
@@ -137,12 +137,12 @@
       "evidence_quality": {
         "max_score": 20,
         "achieved": 19,
-        "evidence": "44 evidence files, 18 screenshots, L1-L4 tiers"
+        "evidence": "102 evidence files, 32 screenshots, L1-L4 tiers"
       },
       "presentation": {
         "max_score": 15,
-        "achieved": 14,
-        "evidence": "45-slide PPT, 15 docs, benchmark report"
+        "achieved": 15,
+        "evidence": "16-slide PPT, 15 docs, benchmark report"
       },
       "total": {
         "max_score": 100,
@@ -150,7 +150,7 @@
       }
     }
   },
-  "total_evidence_files": 46,
+  "total_evidence_files": 61,
   "new_files": [
     {
       "id": "E-035",

@@ -77,7 +77,7 @@ Runs `poc/scenario/e2e_demo.py` — 6 steps (Intake → Analyst → Fixer → Ve
 $VENV $DRIVER skills-test
 ```
 
-Installs all 6 skill packages, runs registry verification, executes 29 pytest tests.*?274 passed`.
+Installs all 6 skill packages, runs registry verification, executes 29 pytest tests.*?365 passed`.
 
 ### 5. Run Pytest Suite
 

@@ -9,7 +9,7 @@ size: 16:9
 
 # DevPilot Loop
 ## 基于 AgentTeams 的可验证、可审计、可复用的多 Agent 研发协作基础设施
-### From Demo to Production — AgentTeams 原生融合 · Skill 工程化 · L4 独立验证 · 129 份证据
+### From Demo to Production — AgentTeams 原生融合 · Skill 工程化 · L4 独立验证 · 102 份证据
 
 基于 AgentTeams（原 HiClaw）· Apache 2.0 开源
 
@@ -112,7 +112,7 @@ Manager–Worker–Skill 是场景无关的骨架：
 | AgentTeams 框架 | DevPilot Loop 实现 | 映射度 |
 |-----------------|-------------------|-------|
 | Manager Agent（任务拆解/调度/状态追踪/超时重试） | DevLead：raw_payload→plan，config.yaml 配置 timeout:300s retry:2 | **100%** |
-| Worker 技能隔离（每 Worker 只拥有分配 Skill / 无直接通信 / 沙箱执行） | 129 份 config.yaml 限定 skills 字段；Worker 间经 Manager 中转；patch 需 Verifier 验证 | **100%** |
+| Worker 技能隔离（每 Worker 只拥有分配 Skill / 无直接通信 / 沙箱执行） | 12 份 config.yaml 限定 skills 字段；Worker 间经 Manager 中转；patch 需 Verifier 验证 | **100%** |
 | Matrix 房间（人机通道/任意环节介入/留痕可审计） | fixer 生成 patch 后推审批至 Matrix 房间；approval_record 含 who/when/decision/reason | **90%** |
 | State Tracking（持久化/断点续跑） | lifecycle_state.json + checkpoint/restore 机制 | **100%** |
 | 零信任凭证（Consumer Token / 集中管理） | Worker 持工牌式 token；Higress AI 网关动态注入；SHA-256 哈希存储 | **85%** |
@@ -200,7 +200,7 @@ Orchestrator（复杂任务）、Lifecycle（系统事件）可选介入
 
 **关键输出**：
 - approval_record: who/when/decision/reason 全字段记录
-- test_report: 274 passed, 0 failed，regression=pass
+- test_report: 365 passed, 0 failed，regression=pass
 - 证据等级：L1 实机 / L2 实机
 
 ---
@@ -319,7 +319,7 @@ Fixer 生成 patch         Verifier 执行 TestRunner       Orchestrator 触发�
 
 ---
 
-# 证据 129 份文件 · L1-L4 全覆盖
+# 证据 102 份文件 · L1-L4 全覆盖
 <!-- 工程落地 20% · 核心得分点 -->
 
 | 证据层级 | 数量 | 获取方式 | 关键证明 |
@@ -531,7 +531,7 @@ Manager 健康检查：8/8 服务 running healthy → 任务派发：POST /dispa
 **DevPilot Loop**
 研发团队的"自动驾驶"
 
-github.com/ProofForgeDev/DevPilot-Loop-Documentation
+github.com/ProofForgeDev/DevPilot-Loop-Preliminary
 
 ---
 
@@ -543,7 +543,7 @@ github.com/ProofForgeDev/DevPilot-Loop-Documentation
 - **开源协议**：Apache 2.0
 - **GitHub**：github.com/ProofForgeDev/DevPilot-Loop-Preliminary
 - **发布日期**：2026-08-16 · **版本**：v2.0.0
-- **证据 129 份（L1-L4 全覆盖）
+- **证据 102 份（L1-L4 全覆盖）
 
 **技术支持**：AgentTeams · Higress · Matrix · OpenTelemetry
 **竞赛赛道**：GOAI Agent Infra · 初赛提交状态：✅ 可提交

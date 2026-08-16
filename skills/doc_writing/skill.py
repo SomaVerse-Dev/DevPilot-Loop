@@ -261,7 +261,7 @@ Authorization: Bearer <your-token>
 ## Installation
 ```bash
 # Clone repository
-git clone https://github.com/ProofForgeDev/DevPilot-Loop-Documentation.git
+git clone https://github.com/ProofForgeDev/DevPilot-Loop-Preliminary.git
 cd devpilot-loop
 
 # Install dependencies

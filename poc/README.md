@@ -20,7 +20,7 @@ docker compose up -d
 cd devpilot-loop
 python3 -m pytest tests/ -v --tb=short
 ```
-运行所有测试用例（367 个），验证 Agent 通信、Skill 注册、安全扫描等核心功能。
+运行所有测试用例（365 个），验证 Agent 通信、Skill 注册、安全扫描等核心功能。
 
 ## 运行端到端场景演示
 ```bash
